@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.player{
+    width: 5rem;
+}
+.head{
+    font-size: 25px;
+    font-weight: bold;
+}
+.right{
+    float: right;
+}
+#reload {
+    font-size: 17px;
+    margin: 14px;
+    padding: 4px 7px;
+    cursor: pointer;
+}
+.vs{
+   margin-left: 11.5em;
+   font-size: 30px;
+}
+.container{
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 7px;
+    padding: 14px;
+}
+
+.row{
+    display: flex;
+}
+
+.box{
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    padding: 14px;
+    margin: 10px;
+}
+.btn{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
